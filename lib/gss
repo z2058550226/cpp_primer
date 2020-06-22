@@ -1,0 +1,5 @@
+# Simple run a cpp file with c++11 std
+
+g++ --std=c++11 $1
+./a.out
+rm a.out
