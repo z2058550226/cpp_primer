@@ -1,3 +1,8 @@
-./config_path
+#! /bin/bash
+
+# Usage method: . cfg_path
+
+./config_path.sh
+# shellcheck disable=SC1091
 . ./tmp
 rm tmp
